@@ -4,6 +4,8 @@
 
 World population CSV file was extracted using Parse software
 
+ParseHub is a software tool that allows users to extract data from websites. It uses a visual interface to guide users through the process of selecting the data they want to extract, and then automatically scrapes the data from the website. ParseHub can handle websites that use dynamic content, such as web pages that load new data when the user scrolls down or clicks on a button. It can also scrape data from multiple pages on a website and handle complex navigation patterns.
+
 ## API
 
 An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other. In the context of Python, an API can be thought of as a set of functions and methods that allow a programmer to access and use the capabilities of a particular library or framework. For example, the Python standard library includes a wide variety of APIs that allow a programmer to perform tasks such as opening and reading files, working with data structures, and communicating over networks. Many third-party libraries and frameworks also provide their own APIs that can be used to perform specific tasks or access particular functionality. To use an API in Python, you will typically need to import the relevant library or module and then call the functions or methods provided by the API to perform the desired task.

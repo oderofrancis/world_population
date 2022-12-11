@@ -40,6 +40,6 @@ links = soup.find_all('a')
 for link in links:
     print(link.get('href'))
     
-    ```
+```
     
- Beautiful Soup provides many other useful methods for parsing HTML and extracting information from a website. You can read more about it in the official documentation: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+Beautiful Soup provides many other useful methods for parsing HTML and extracting information from a website. You can read more about it in the official documentation: https://www.crummy.com/software/BeautifulSoup/bs4/doc/

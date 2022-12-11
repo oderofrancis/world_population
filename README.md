@@ -23,7 +23,8 @@ Beautiful Soup is a Python library that is used for web scraping. It is used to 
 
 Once Beautiful Soup is installed, you can use it to parse HTML and extract information from a website. Here is a simple example that demonstrates how to use Beautiful Soup to extract all the links from a web page:
 
-``from bs4 import BeautifulSoup
+```python
+from bs4 import BeautifulSoup
 import requests
 
 # Make a GET request to the website
@@ -37,6 +38,8 @@ links = soup.find_all('a')
 
 # Print the links
 for link in links:
-    print(link.get('href'))``
+    print(link.get('href'))
+    
+    ```
     
  Beautiful Soup provides many other useful methods for parsing HTML and extracting information from a website. You can read more about it in the official documentation: https://www.crummy.com/software/BeautifulSoup/bs4/doc/

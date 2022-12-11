@@ -1,6 +1,6 @@
 #  **WORLD POPULATION**
 
-## Parse HUb software
+## Parse Hub software
 
 World population CSV file was extracted using Parse software
 

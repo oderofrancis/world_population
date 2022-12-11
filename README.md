@@ -6,14 +6,18 @@ World population CSV file was extracted using Parse software
 
 ## API
 
-An API, or Application Programming Interface, is a set of rules and protocols that defines how two pieces of software should interact with each other. It's essentially a way for different software programs to communicate with each other and share data and functionality.
+An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other. In the context of Python, an API can be thought of as a set of functions and methods that allow a programmer to access and use the capabilities of a particular library or framework. For example, the Python standard library includes a wide variety of APIs that allow a programmer to perform tasks such as opening and reading files, working with data structures, and communicating over networks. Many third-party libraries and frameworks also provide their own APIs that can be used to perform specific tasks or access particular functionality. To use an API in Python, you will typically need to import the relevant library or module and then call the functions or methods provided by the API to perform the desired task.
 
-Basically, an API specifies how software components should interact.
-Additionally, APIs are used when programming graphical user interface (GUI)
-components.
+```python
 
-A good API makes it easier to develop a program by providing all the
-building blocks. A programmer then puts the blocks together.
+import requests
+import json
+
+r = requests.get("URL")
+j=r.json()
+print(j)
+
+```
 
 ## Data scrapping using codes
 
